@@ -10,9 +10,11 @@
   }
 
   &__avatar {
-    width: 100%;
     flex: 0 1 20rem;
-    border-radius: 8.5rem;
+    img {
+      width: 100%;
+      border-radius: 8.5rem;
+    }
   }
 
   &__header-text {
@@ -31,11 +33,17 @@
     font-size: min(6vw, 1.5rem);
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
+
+    &-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
 
     &-image {
-      width: 100%;
       flex: 0 1 32rem;
+      width: 100%;
     }
   }
 }

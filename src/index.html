@@ -22,12 +22,16 @@
   <section class="hero">
     <div class="hero__container container">
       <header class="template__container">
-        <img class="hero__avatar"
-          src="assets/images/hero/avatar.jpg"
-          alt="я">
+        <picture class="hero__avatar">
+          <source srcset="assets/images/hero/avatar.avif" type="image/avif">
+          <source srcset="assets/images/hero/avatar.webp" type="image/webp">
+          <img
+            src="assets/images/hero/avatar.jpg"
+            alt="парень в очках ест рулет">
+        </picture>
         <div class="hero__header-text template__text">
           <p class="paragraph">
-            Быстро и качественно сверстаю «шустрый» сайт.
+            Быстро и качественно сверстаю «шустрый» сайт!
           </p>
           <h1 class="title title__hero">
             Максим Иванюхин
@@ -59,30 +63,54 @@
       <div class="template__container">
         <ul class="hero__features template__text">
           <li class="hero__features-item">
-            📧 Верстка E-mail писем
+            <img class="icon"
+              src="assets/icons/speed.svg"
+              alt="быстро бегущий человек">
+            Быстрая загрузка
           </li>
           <li class="hero__features-item">
-            📚 Семантическая верстка
+            <img class="icon"
+              src="assets/icons/book.svg"
+              alt="раскрытая книга">
+            Методология БЭМ
           </li>
           <li class="hero__features-item">
-            🧩 Анимации
+            <img class="icon"
+              src="assets/icons/check.svg"
+              alt="галочка">
+            Семантическая верстка
           </li>
           <li class="hero__features-item">
-            🧩 JavaScript / jQuery / Vue / React
+            <img class="icon"
+              src="assets/icons/terminal.svg"
+              alt="терминал операционной системы">
+            JavaScript / JQuery / Vue / React
           </li>
           <li class="hero__features-item">
-            📲 Оптимизация для всех видов устройств
+            <img class="icon"
+              src="assets/icons/image.svg"
+              alt="абстрактной изображение картинки">
+            Грамотная работа с изображениями
           </li>
           <li class="hero__features-item">
-            ⚙ Работа с изображениями
+            <img class="icon"
+              src="assets/icons/devices.svg"
+              alt="ноутбук и телефон">
+            Оптимизация для всех устройств
           </li>
           <li class="hero__features-item">
-            📚 БЭМ
+            <img class="icon"
+              src="assets/icons/accessibility.svg"
+              alt="человек раскинувший руки">
+            Web accessibility
           </li>
         </ul>
-        <img class="hero__features-image"
-          src="assets/images/hero/programmer.png"
-          alt="программист">
+        <picture class="hero__features-image">
+          <source srcset="assets/images/hero/programmer.webp" type="image/webp">
+          <img class="hero__features-image"
+            src="assets/images/hero/programmer.png"
+            alt="человек работающий на ноутбуке с кружкой горячего напитка">
+        </picture>
       </div>
     </div>
   </section>
