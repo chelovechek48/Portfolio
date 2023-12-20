@@ -1,0 +1,13 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #d9dada;
+
+  &__menu {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    gap: min(6vw, 2rem);
+    white-space: nowrap;
+  }
+}
