@@ -1,0 +1,13 @@
+@use '../../vars/' as *;
+
+.title {
+  line-height: 1;
+  &__hero {
+    @media (min-width: $mobile-small) {
+      font-size: clamp(3rem, 4.5vw, 4.5rem);
+    }
+    @media (max-width: $mobile-small) {
+      font-size: 12vw;
+    }
+  }
+}

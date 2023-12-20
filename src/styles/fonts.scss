@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800;900&display=swap');
+
 // @font-face {
 //   font-family: 'FONTNAME';
 //   font-style: normal;
@@ -5,3 +7,7 @@
 //   src: url('@fonts/FONTNAME.woff2') format('woff2'),
 //        url('@fonts/FONTNAME.woff') format('woff');
 // }
+
+* {
+  font-family: 'Unbounded', sans-serif;
+}

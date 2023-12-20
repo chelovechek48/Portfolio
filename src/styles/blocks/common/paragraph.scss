@@ -1,0 +1,5 @@
+@use '../../vars/' as *;
+
+.paragraph {
+  font-size: min(6vw, 1.5rem);
+}
