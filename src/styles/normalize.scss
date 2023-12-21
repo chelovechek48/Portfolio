@@ -7,6 +7,9 @@
   border: none;
   box-sizing: border-box;
 }
+*, ::before, ::after {
+  transition: 0.25s;
+}
 
 button {
   display: block;

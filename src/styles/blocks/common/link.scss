@@ -7,4 +7,31 @@
     width: min(10vw, 2.5rem);
     min-width: min(10vw, 2.5rem);
   }
+
+  &:focus {
+    outline-offset: 0.5rem;
+    outline-width: 0.25rem;
+    outline-style: solid;
+    border-radius: 20rem;
+    outline-color: #5865f2;
+  }
+
+  &_animation_underline {
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -0.25rem;
+      left: 0;
+      width: 0%;
+      height: 0.2rem;
+      background-color: #000;
+    }
+  }
+  &:hover, &:hover &_animation_underline {
+    color: #5865f2;
+    &::after {
+      width: 100%;
+    }
+  }
 }
