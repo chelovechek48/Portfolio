@@ -1,12 +1,5 @@
 .link {
   font-size: min(6vw, 1.5rem);
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  &__icon {
-    width: min(10vw, 2.5rem);
-    min-width: min(10vw, 2.5rem);
-  }
 
   &:focus {
     outline-offset: 0.5rem;

@@ -1,4 +1,10 @@
 .icon {
   width: min(10vw, 2.5rem);
   min-width: min(10vw, 2.5rem);
+
+  &__text {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
 }
