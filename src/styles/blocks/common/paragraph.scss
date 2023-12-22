@@ -1,5 +1,6 @@
 @use '../../vars/' as *;
 
 .paragraph {
+  word-break: break-word;
   font-size: min(6vw, 1.5rem);
 }

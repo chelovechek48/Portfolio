@@ -1,6 +1,7 @@
 @use '../../vars/' as *;
 
 .title {
+  word-break: break-word;
   line-height: 1;
   &__hero {
     @media (min-width: $mobile-small) {
@@ -8,6 +9,24 @@
     }
     @media (max-width: $mobile-small) {
       font-size: 12vw;
+    }
+  }
+
+  &__section {
+    @media (min-width: $mobile-small) {
+      font-size: clamp(2.5rem, 4vw, 3rem);
+    }
+    @media (max-width: $mobile-small) {
+      font-size: 9vw;
+    }
+  }
+
+  &__item {
+    @media (min-width: $mobile-small) {
+      font-size: clamp(2rem, 4vw, 2.25rem);
+    }
+    @media (max-width: $mobile-small) {
+      font-size: 7vw;
     }
   }
 }

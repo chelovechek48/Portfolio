@@ -10,6 +10,7 @@
   }
 
   &_animation_underline {
+    display: block;
     position: relative;
     &::after {
       content: '';
@@ -26,5 +27,9 @@
     &::after {
       width: 100%;
     }
+  }
+
+  &_style_in-text {
+    color: #5865f2;
   }
 }
