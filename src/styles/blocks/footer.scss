@@ -1,5 +1,9 @@
+@use '../vars/' as *;
+
 .footer {
-  background-color: #d9dada;
+  @media (min-width: calc($mobile + 1px)) {
+    background-color: #d9dada;
+  }
   
   &__contacts {
     padding-top: 0.75rem;
