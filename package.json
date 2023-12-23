@@ -25,7 +25,6 @@
     "mini-css-extract-plugin": "^2.6.0",
     "postcss": "^8.4.18",
     "postcss-combine-media-query": "^1.0.1",
-    "postcss-hover-media-grouper": "^1.0.1",
     "postcss-loader": "^7.0.1",
     "postcss-preset-env": "^7.8.2",
     "sass": "^1.50.1",

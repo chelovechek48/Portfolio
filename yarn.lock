@@ -3892,14 +3892,6 @@ postcss-gap-properties@^3.0.5:
   resolved "https://registry.yarnpkg.com/postcss-gap-properties/-/postcss-gap-properties-3.0.5.tgz#f7e3cddcf73ee19e94ccf7cb77773f9560aa2fff"
   integrity sha512-IuE6gKSdoUNcvkGIqdtjtcMtZIFyXZhmFd5RUlg97iVEvp1BZKV5ngsAjCjrVy+14uhGBQl9tzmi1Qwq4kqVOg==
 
-postcss-hover-media-grouper@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-hover-media-grouper/-/postcss-hover-media-grouper-1.0.1.tgz#bf17669a803ef9130889129b4cf84a46e8521d16"
-  integrity sha512-05TSLee/fwpMWRnGHHm4GbuGZumbaUrJP9BL6OGzOYq3LVbZqwXaLQeB8nPyoaDUaEb3fc0cY20UuOQJwKu8Ww==
-  dependencies:
-    postcss "^7.0.21"
-    postcss-selector-parser "^6.0.2"
-
 postcss-image-set-function@^4.0.7:
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/postcss-image-set-function/-/postcss-image-set-function-4.0.7.tgz#08353bd756f1cbfb3b6e93182c7829879114481f"
