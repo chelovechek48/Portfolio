@@ -10,10 +10,19 @@ const swiperProducts = new Swiper('.works__swiper', {
   },
   autoplay: {
     enabled: true,
-    delay: 5000,
+    delay: 3000,
+    pauseOnMouseEnter: true,
   },
   loop: true,
   slidesPerView: 'auto',
   spaceBetween: 32,
   grabCursor: true,
+});
+
+const worksLinks = document.querySelectorAll('.works__link');
+
+worksLinks.forEach((el, index) => {
+  el.addEventListener('focus', () => {
+    swiperProducts.slideTo(index);
+  });
 });
