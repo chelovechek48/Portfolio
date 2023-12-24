@@ -3,6 +3,7 @@
 .title {
   word-break: break-word;
   line-height: 1;
+  font-weight: 700;
   &__hero {
     @media (min-width: $mobile-small) {
       font-size: clamp(3rem, 4.5vw, 4.5rem);
