@@ -2,7 +2,9 @@
 
 .footer {
   @media (min-width: calc($mobile + 1px)) {
-    background-color: #d9dada;
+    &__container {
+      background-color: #d9dada;
+    }
   }
   
   &__contacts {

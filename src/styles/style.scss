@@ -16,8 +16,6 @@ html {
   margin-right: auto;
 }
 
-.page {
-  display: flex;
-  flex-direction: column;
-  gap: max(4vw, $padding-container)
+.page__section {
+  padding-top: max(4vw, $padding-container);
 }
