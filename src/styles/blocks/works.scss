@@ -2,13 +2,10 @@
 
 .works {
   overflow: hidden;
-  @media (min-width: calc($mobile + 1px)) {
-    padding: 1rem 0;
-  }
 
   &__swiper {
     @media (min-width: calc($laptop + 1px)) {
-      padding: 0 $padding-container;
+      padding: 1rem $padding-container;
     }
   }
 
