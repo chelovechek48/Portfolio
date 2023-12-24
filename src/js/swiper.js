@@ -13,7 +13,7 @@ const swiperProducts = new Swiper('.works__swiper', {
     delay: 3000,
     pauseOnMouseEnter: true,
   },
-  loop: true,
+  loop: false,
   slidesPerView: 'auto',
   spaceBetween: 32,
   grabCursor: true,
