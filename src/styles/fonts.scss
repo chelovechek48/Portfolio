@@ -4,7 +4,7 @@
   font-weight: 400;
   src: url('@fonts/Unbounded/Unbounded-Regular-subset.woff2') format('woff2'),
        url('@fonts/Unbounded/Unbounded-Regular-subset.woff') format('woff'),
-       url('@fonts/Unbounded/Unbounded-Regular.ttf') format('ttf');
+       url('@fonts/Unbounded/Unbounded-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Unbounded';
@@ -12,7 +12,7 @@
   font-weight: 700;
   src: url('@fonts/Unbounded/Unbounded-Bold-subset.woff2') format('woff2'),
        url('@fonts/Unbounded/Unbounded-Bold-subset.woff') format('woff'),
-       url('@fonts/Unbounded/Unbounded-Bold.ttf') format('ttf');
+       url('@fonts/Unbounded/Unbounded-Bold.ttf') format('truetype');
 }
 
 * {
