@@ -1,34 +1,48 @@
 @use '../vars/' as *;
 
 .works {
-  overflow: hidden;
+  @media (min-width: calc($mobile + 1px)) {
+    padding-left: $padding-container;
+    padding-right: $padding-container;
+  }
 
-  &__swiper {
-    @media (min-width: calc($laptop + 1px)) {
-      padding: 1rem $padding-container;
+  &__list {
+    display: grid;
+    @media (min-width: calc($mobile + 1px)) {
+      gap: 1.5rem;
+    }
+    @media (max-width: $mobile) {
+      gap: 0.0rem;
+    }
+    @media (min-width: calc($tablet + 1px)) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: $tablet) {
+      grid-template-columns: repeat(1, 1fr);
     }
   }
 
-  &__item {
-    width: min(100%, 65rem);
+  &__link {
     @media (min-width: calc($mobile + 1px)) {
-      aspect-ratio: 1440 / 800;
-    }
-    @media (max-width: $mobile) {
-      aspect-ratio: 1440 / 1200;
+      border-radius: 1.5rem;
+      display: block;
     }
   }
 
   &__image {
+    @media (min-width: calc($mobile + 1px)) {
+      aspect-ratio: 1440 / 800;
+      border-radius: 1.5rem;
+    }
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: top;
     transition: 0.4s;
-
     &:hover {
       object-position: 0% 100%;
       transition-delay: 0.5s;
-    }   
+      box-shadow: 0 0 2.5rem 0 gray;
+    }
   }
 }

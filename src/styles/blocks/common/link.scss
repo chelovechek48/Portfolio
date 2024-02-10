@@ -1,16 +1,18 @@
+@use '../../vars/' as *;
+
 .link {
+  display: inline-block;
   font-size: min(6vw, 1.5rem);
 
-  &:focus {
+  &:focus-visible {
     outline-offset: 0.5rem;
     outline-width: 0.25rem;
     outline-style: solid;
-    border-radius: 20rem;
-    outline-color: #5865f2;
+    border-radius: 1.5rem;
+    outline-color: $blue;
   }
 
   &_animation_underline {
-    display: block;
     position: relative;
     &::after {
       content: '';
@@ -23,13 +25,13 @@
     }
   }
   &:hover, &:hover &_animation_underline {
-    color: #5865f2;
+    color: $blue;
     &::after {
       width: 100%;
     }
   }
 
   &_style_in-text {
-    color: #5865f2;
+    color: $blue;
   }
 }

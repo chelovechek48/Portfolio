@@ -11,7 +11,6 @@ module.exports = {
   mode: 'development',
   context: path.resolve(__dirname, 'src'),
   entry: {
-    swiper: './js/swiper.js',
     main: './js/index.js',
   },
   output: {
